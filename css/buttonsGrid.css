@@ -1,0 +1,14 @@
+#btns{
+    margin: 0 auto;
+    width:75%;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-content: center;
+    column-gap:5px;
+}
+
+#btns > button {
+    height:48px;
+    font-size:24px;
+}
